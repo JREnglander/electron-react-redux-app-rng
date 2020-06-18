@@ -11,7 +11,7 @@ function createWindow() {
         icon: ""
     });
      
-
+    mainWindow.setMenu(null);
     mainWindow.loadURL(
         isDev
         ? "http://localhost:3000"
