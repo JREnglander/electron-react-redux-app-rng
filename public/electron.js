@@ -6,12 +6,13 @@ const isDev = require("electron-is-dev");
 let mainWindow;
 function createWindow() {
     mainWindow = new BrowserWindow({ 
-        width: 1200, 
-        height: 800,
+        width: 500, 
+        height: 500,
         icon: ""
     });
      
     mainWindow.setMenu(null);
+    mainWindow.webContents.openDevTools();
     mainWindow.loadURL(
         isDev
         ? "http://localhost:3000"
