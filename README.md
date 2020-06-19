@@ -20,16 +20,22 @@ npm install -g yarn
 ```
 3. Navigate into project root and install dependencies.
 ```
-cd <your-project-name> && npm install
+cd <your-project-name> && npm install 
+or
+cd <your-project-name> && yarn
 ```
 4. Run dev server.
 ```
 npm run start
+or 
+yarn run start
 ```
 ## Deploy to Desktop
 1. Run the build process
 ```
 npm run build
+or 
+yarn run build
 ```
 2. Go into your project folder using your file explorer. Navigate to the `dist` folder and open it. Then double-click `<your-project-name>` Setup 0.1.0. Your app should open and there should now be an icon on your desktop for this app.
 
