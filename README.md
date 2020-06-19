@@ -1,5 +1,6 @@
 # React Electron
-## This was made using willjw3's boilerplate
+This was made using [willjw3](https://github.com/willjw3/react-electron)'s boilerplate
+<br>
 *Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router.*
 <br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Electron](https://electronjs.org/), and [electron-builder](https://github.com/electron-userland/electron-builder).
