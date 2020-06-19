@@ -1,5 +1,6 @@
-# React Electron
+# React Electron Redux RNG 
 This was made using [willjw3](https://github.com/willjw3/react-electron)'s boilerplate
+<br>
 <br>
 *Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router.*
 <br>
