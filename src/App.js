@@ -3,14 +3,16 @@
 
 import React from 'react';
 import store from './randomnumreducer.js';
-import Container from './randomnumcontainer';
-import { Provider} from 'react-redux';
+import RNGContainer from './RNGComponents/rngcontainercomp';
+import SetModeContainer from './RNGComponents/setModeContainer';
+import { Provider } from 'react-redux';
 // import './App.css';
 
 function App(props) {
   return ( 
   <Provider store = {store}>
-      <Container />
+      <RNGContainer />
+      <SetModeContainer/>
   </Provider>);
 }
 

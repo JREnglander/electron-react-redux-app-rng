@@ -25,18 +25,25 @@ const randNumReducer = function (state = initialState, action) {
             };
         case "CHANGE-MINIMUM":
             return state = {
-                    num: state.num,
-                    min: action.payload,
-                    max: state.max,
-                    integer: state.integer
-                };
-        case "CHANGE_MAXIMUM":
+                num: state.num,
+                min: action.payload,
+                max: state.max,
+                integer: state.integer
+            };
+        case "CHANGE-MAXIMUM":
             return state = {
                 num: state.num,
                 min: state.min,
                 max: action.payload,
                 integer: state.integer
-            }
+            };
+        case "CHANGE-MODE":
+            return state = {
+                num: state.num,
+                min: state.min,
+                max: state.max,
+                integer: !state.integer
+            };
         default:
             return state;
     }
